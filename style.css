@@ -1,8 +1,10 @@
 body {
-  background-image: url("./images/carbon_fibre.png");
+  background-image: url("./images/logo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.header {
-  background: rgb(51, 47, 47);
+.head {
+
   color: #e2cf6e;
   margin: 0 auto;
   text-align: center;
@@ -11,10 +13,12 @@ body {
   padding: 15px;
   font-stretch: expanded;
   letter-spacing: 15px;
+  float: left;
 }
 .row{
   color: #8d8d8d;
   padding: 2em;
+  clear: both;
 }
 .blackdog{
   height: 255px;
@@ -25,4 +29,7 @@ body {
 }
 .logo{
   margin: 0 0 0 275px;
+}
+.social{
+  float: right;
 }
