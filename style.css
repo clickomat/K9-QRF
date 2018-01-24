@@ -20,4 +20,9 @@ body {
   height: 255px;
   margin-top: 1em;
 }
-.airlift{height: 350px}
+.airlift{
+  height: 350px
+}
+.logo{
+  margin: 0 0 0 275px;
+}
