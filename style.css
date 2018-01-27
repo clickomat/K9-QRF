@@ -1,11 +1,11 @@
 body {
-  background-image: url("./images/logo.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("./images/carbon_fibre.png");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-attachment: fixed;
 }
 .head {
-
-  color: #e2cf6e;
+  /* color: #e2cf6e; 
   margin: 0 auto;
   text-align: center;
   font-family: "Oswald", sans-serif;
@@ -13,23 +13,73 @@ body {
   padding: 15px;
   font-stretch: expanded;
   letter-spacing: 15px;
-  float: left;
+  float: left;*/
 }
-.row{
-  color: #8d8d8d;
+.row {
+  color: #d3c0c0;
   padding: 2em;
   clear: both;
+  text-shadow: 1px 1px #2c2020;
 }
-.blackdog{
+.blackdog {
   height: 255px;
   margin-top: 1em;
 }
-.airlift{
-  height: 350px
+.airlift {
+  height: 350px;
 }
-.logo{
+.logo {
   margin: 0 0 0 275px;
 }
-.social{
+.social {
   float: right;
+  padding: 25px;
+}
+.hlogo1 {
+  height: 3em;
+  float: right;
+  clear: both;
+}
+.hlogo2 {
+  height: 3em;
+  float: left;
+  clear: both;
+}
+.head {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+  color: #228dff;
+  font-family: Iceland;
+}
+
+@media screen and (orientation: landscape) {
+  .head {
+    color: aquamarine;
+    background-color: #3f0202;
+  }
+  .blackdog {
+    height: 200px;
+    margin-top: 1em;
+  }
+  .airlift {
+    height: 300px;
+  }
+}
+@media screen and (orientation: portrait) {
+  .head {
+    color: rgb(18, 19, 18);
+    background-color: #e6d9d9;
+  }
+  .blackdog {
+    height: 150px;
+    margin-top: 1em;
+  }
+  .airlift {
+    height: 150px;
+  }
 }
